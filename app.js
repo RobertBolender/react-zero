@@ -3,8 +3,8 @@ import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(React.createElement);
 
 const Route = {
-  "/": React.lazy(() => import("./routes/home/index.js")),
-  "*": React.lazy(() => import("./routes/lost/index.js")),
+  "/react-zero/": React.lazy(() => import("./routes/home/index.js")),
+  "/react-zero/*": React.lazy(() => import("./routes/lost/index.js")),
 };
 
 ReactDOM.render(
