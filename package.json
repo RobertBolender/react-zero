@@ -1,0 +1,13 @@
+{
+  "name": "react-zero",
+  "description": "A React development environment with live reload and zero node modules. No installation, no build step.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:RobertBolender/react-zero.git",
+  "author": "Robert Bolender <robert.bolender.3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx servor --browse --reload"
+  },
+  "private": true
+}
